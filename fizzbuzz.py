@@ -1,10 +1,6 @@
-# Recursive
-def fibo(n):
-    if n < 2:
-        return n
-    else:
-        return fibo(n-1) + fibo(n-2)
-
-
-if __name__ == '__main__':
-    print(fibo(5))
+# fizz / buzz
+for i in range(1, 20) :
+    if i % 3 == 0 or i % 5 == 0 :
+        print('fizz' * (i % 3 == 0) 'buzz' * (i % 5 == 0))
+    else :
+        print(i)
